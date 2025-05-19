@@ -98,4 +98,3 @@ with tab3:
         else:
             st.error("❌ Try again.")
 with tab4:
-  st.aasl
