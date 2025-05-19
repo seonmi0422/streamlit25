@@ -15,7 +15,7 @@ with tab1:
   st.markdown("### 📋 Word Frequency Table")
 
    # Load CSV from GitHub (update the link below)
-  url = "https://github.com/seonmi0422/streamlit25/blob/main/word_frequency%20(2).csv"
+  url = "https://raw.githubusercontent.com/seonmi0422/streamlit25/refs/heads/main/word_frequency%20(2).csv"
   df = pd.read_csv(url)
 
     # Show table only when button is clicked
@@ -31,7 +31,7 @@ with tab2:
   
   # --- Load CSV from GitHub ---
 
-  url = "https://raw.githubusercontent.com/MK316/Digital-Literacy-Class/refs/heads/main/data/word_frequency.csv"  # ← replace this!
+  url = "https://raw.githubusercontent.com/seonmi0422/streamlit25/refs/heads/main/word_frequency%20(2).csv"  # ← replace this!
   df = pd.read_csv(url)
   
   # --- Dropdown to select word ---
@@ -54,7 +54,7 @@ with tab3:
     st.caption("Click the button to hear a word. Then type it and press 'Check the answer'.")
 
     # Load CSV
-    url = "https://raw.githubusercontent.com/MK316/Digital-Literacy-Class/refs/heads/main/data/word_frequency.csv"  # Replace this!
+    url = "https://raw.githubusercontent.com/seonmi0422/streamlit25/refs/heads/main/word_frequency%20(2).csv"  # Replace this!
     df = pd.read_csv(url)
     word_list = df["Word"].dropna().tolist()
 
@@ -98,4 +98,4 @@ with tab3:
         else:
             st.error("❌ Try again.")
 with tab4:
-  st.나중에만들게
+  st.aasl
